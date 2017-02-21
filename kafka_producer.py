@@ -3,10 +3,10 @@ from googlefinance import getQuotes
 from kafka import KafkaProducer
 
 import argparse
-improt loggine
+import loggine
 import time
 import json
-improt schedule
+import schedule
 import atexit
 
 topic_name = ""
